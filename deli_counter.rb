@@ -11,3 +11,6 @@ def line(line_array)
     puts str
   end
 end
+
+def take_a_number(line_array, name)
+  
