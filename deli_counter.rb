@@ -18,6 +18,10 @@ def take_a_number(line_array, name)
 end
 
 def now_serving(line_array)
+  if line_array.length == 0
+    puts "The line is currently empty."
+    return
+  end
   a = line_array.shift
   puts "Currently serving #{a}."
 end
