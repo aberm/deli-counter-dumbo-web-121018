@@ -8,5 +8,5 @@ def line(line_array)
   for i in (0..line_array.length) do
     str += " #{i+1}. #{line_array[i]}"
   end
-  str
+  puts str
 end
