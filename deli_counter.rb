@@ -5,7 +5,7 @@ def line(line_array)
     puts "The line is currently empty."
   else
     str = "The line is currently:"
-    for i in (0..line_array.length) do
+    for i in (0...line_array.length) do
       str += " #{i+1}. #{line_array[i]}"
     end
     puts str
