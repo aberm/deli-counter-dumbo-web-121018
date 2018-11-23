@@ -18,5 +18,5 @@ def take_a_number(line_array, name)
 end
 
 def now_serving(line_array)
-  a = line_array.pop
-  puts 
+  a = line_array.shift
+  puts "Currently serving #{a}."
