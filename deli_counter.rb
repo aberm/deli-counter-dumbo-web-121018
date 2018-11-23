@@ -2,4 +2,5 @@
 
 def line(line_array)
   str = "The line is currently: "
-  for 
+  for i in (0..line_array) do
+    str +=
