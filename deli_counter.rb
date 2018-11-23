@@ -17,4 +17,6 @@ def take_a_number(line_array, name)
   puts "Welcome, #{name}. You are number #{line_array.length} in line."
 end
 
-def 
+def now_serving(line_array)
+  a = line_array.pop
+  puts 
