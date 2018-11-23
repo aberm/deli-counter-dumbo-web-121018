@@ -9,4 +9,5 @@ def line(line_array)
       str += " #{i+1}. #{line_array[i]}"
     end
     puts str
+  end
 end
