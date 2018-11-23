@@ -20,3 +20,4 @@ end
 def now_serving(line_array)
   a = line_array.shift
   puts "Currently serving #{a}."
+end
